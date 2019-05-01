@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArcBlock/forge-js/tree/master/packages/forge-proto"
+    "url": "git+https://github.com/ArcBlock/forge-js.git"
   },
   "scripts": {
     "upgrade": "bash tools/copy.sh && yarn gen && yarn generate-dts && yarn generate-docs && yarn format-docs",
